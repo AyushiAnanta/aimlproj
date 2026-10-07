@@ -1,0 +1,275 @@
+{
+  "weighted": {
+    "LR": {
+      "agreement_with_roberta": 0.6359,
+      "macro_f1": 0.6268,
+      "classification_report": "              precision    recall  f1-score   support\n\n    Negative       0.60      0.61      0.60        74\n     Neutral       0.68      0.65      0.67       194\n    Positive       0.59      0.62      0.61       133\n\n    accuracy                           0.64       401\n   macro avg       0.63      0.63      0.63       401\nweighted avg       0.64      0.64      0.64       401\n",
+      "confusion_matrix": [
+        [
+          45,
+          20,
+          9
+        ],
+        [
+          19,
+          127,
+          48
+        ],
+        [
+          11,
+          39,
+          83
+        ]
+      ]
+    },
+    "SVM": {
+      "agreement_with_roberta": 0.6309,
+      "macro_f1": 0.6264,
+      "classification_report": "              precision    recall  f1-score   support\n\n    Negative       0.63      0.62      0.63        74\n     Neutral       0.68      0.64      0.66       194\n    Positive       0.57      0.62      0.59       133\n\n    accuracy                           0.63       401\n   macro avg       0.63      0.63      0.63       401\nweighted avg       0.63      0.63      0.63       401\n",
+      "confusion_matrix": [
+        [
+          46,
+          19,
+          9
+        ],
+        [
+          16,
+          125,
+          53
+        ],
+        [
+          11,
+          40,
+          82
+        ]
+      ]
+    },
+    "SGD": {
+      "agreement_with_roberta": 0.6185,
+      "macro_f1": 0.6109,
+      "classification_report": "              precision    recall  f1-score   support\n\n    Negative       0.61      0.58      0.59        74\n     Neutral       0.68      0.62      0.65       194\n    Positive       0.55      0.63      0.59       133\n\n    accuracy                           0.62       401\n   macro avg       0.61      0.61      0.61       401\nweighted avg       0.62      0.62      0.62       401\n",
+      "confusion_matrix": [
+        [
+          43,
+          18,
+          13
+        ],
+        [
+          17,
+          121,
+          56
+        ],
+        [
+          11,
+          38,
+          84
+        ]
+      ]
+    },
+    "Ensemble": {
+      "agreement_with_roberta": 0.6334,
+      "macro_f1": 0.6294,
+      "classification_report": "              precision    recall  f1-score   support\n\n    Negative       0.64      0.62      0.63        74\n     Neutral       0.68      0.64      0.66       194\n    Positive       0.57      0.62      0.59       133\n\n    accuracy                           0.63       401\n   macro avg       0.63      0.63      0.63       401\nweighted avg       0.64      0.63      0.63       401\n",
+      "confusion_matrix": [
+        [
+          46,
+          19,
+          9
+        ],
+        [
+          15,
+          125,
+          54
+        ],
+        [
+          11,
+          39,
+          83
+        ]
+      ]
+    }
+  },
+  "unweighted": {
+    "LR": {
+      "agreement_with_roberta": 0.6309,
+      "macro_f1": 0.6224,
+      "classification_report": "              precision    recall  f1-score   support\n\n    Negative       0.60      0.62      0.61        74\n     Neutral       0.68      0.66      0.67       194\n    Positive       0.59      0.59      0.59       133\n\n    accuracy                           0.63       401\n   macro avg       0.62      0.63      0.62       401\nweighted avg       0.63      0.63      0.63       401\n",
+      "confusion_matrix": [
+        [
+          46,
+          19,
+          9
+        ],
+        [
+          19,
+          128,
+          47
+        ],
+        [
+          12,
+          42,
+          79
+        ]
+      ]
+    },
+    "SVM": {
+      "agreement_with_roberta": 0.6334,
+      "macro_f1": 0.6254,
+      "classification_report": "              precision    recall  f1-score   support\n\n    Negative       0.61      0.61      0.61        74\n     Neutral       0.68      0.65      0.67       194\n    Positive       0.58      0.62      0.60       133\n\n    accuracy                           0.63       401\n   macro avg       0.62      0.63      0.63       401\nweighted avg       0.64      0.63      0.63       401\n",
+      "confusion_matrix": [
+        [
+          45,
+          19,
+          10
+        ],
+        [
+          18,
+          126,
+          50
+        ],
+        [
+          11,
+          39,
+          83
+        ]
+      ]
+    },
+    "SGD": {
+      "agreement_with_roberta": 0.5985,
+      "macro_f1": 0.5958,
+      "classification_report": "              precision    recall  f1-score   support\n\n    Negative       0.57      0.62      0.59        74\n     Neutral       0.69      0.57      0.63       194\n    Positive       0.52      0.62      0.57       133\n\n    accuracy                           0.60       401\n   macro avg       0.59      0.61      0.60       401\nweighted avg       0.61      0.60      0.60       401\n",
+      "confusion_matrix": [
+        [
+          46,
+          14,
+          14
+        ],
+        [
+          21,
+          111,
+          62
+        ],
+        [
+          14,
+          36,
+          83
+        ]
+      ]
+    },
+    "Ensemble": {
+      "agreement_with_roberta": 0.6334,
+      "macro_f1": 0.6283,
+      "classification_report": "              precision    recall  f1-score   support\n\n    Negative       0.63      0.62      0.63        74\n     Neutral       0.68      0.65      0.66       194\n    Positive       0.57      0.62      0.59       133\n\n    accuracy                           0.63       401\n   macro avg       0.63      0.63      0.63       401\nweighted avg       0.64      0.63      0.63       401\n",
+      "confusion_matrix": [
+        [
+          46,
+          19,
+          9
+        ],
+        [
+          16,
+          126,
+          52
+        ],
+        [
+          11,
+          40,
+          82
+        ]
+      ]
+    }
+  },
+  "baseline_majority_class": {
+    "agreement_with_roberta": 0.4838,
+    "macro_f1": 0.2174
+  },
+  "cv_results": [
+    {
+      "model": "LR",
+      "weighting": "weighted",
+      "cv_mean_macro_f1": 0.6276,
+      "cv_std_macro_f1": 0.0095,
+      "folds": [
+        0.614471596318629,
+        0.6407017673809953,
+        0.6321039195227763,
+        0.6190207475921762,
+        0.631841260412689
+      ]
+    },
+    {
+      "model": "LR",
+      "weighting": "unweighted",
+      "cv_mean_macro_f1": 0.6235,
+      "cv_std_macro_f1": 0.0126,
+      "folds": [
+        0.6128898504358627,
+        0.6460794492177361,
+        0.6269457880855516,
+        0.6114180785733766,
+        0.6200446363888922
+      ]
+    },
+    {
+      "model": "SVM",
+      "weighting": "weighted",
+      "cv_mean_macro_f1": 0.6174,
+      "cv_std_macro_f1": 0.0162,
+      "folds": [
+        0.5901215293969253,
+        0.6357629065372481,
+        0.6269032081398819,
+        0.6253727753727754,
+        0.6088444327454593
+      ]
+    },
+    {
+      "model": "SVM",
+      "weighting": "unweighted",
+      "cv_mean_macro_f1": 0.6033,
+      "cv_std_macro_f1": 0.0093,
+      "folds": [
+        0.5886122316502064,
+        0.6125948652068232,
+        0.6012581234189839,
+        0.5999937517986383,
+        0.6138649838956991
+      ]
+    },
+    {
+      "model": "SGD",
+      "weighting": "weighted",
+      "cv_mean_macro_f1": 0.6013,
+      "cv_std_macro_f1": 0.0104,
+      "folds": [
+        0.590446013969315,
+        0.6158915757267596,
+        0.6075765247327283,
+        0.5884562547281305,
+        0.6042823259572028
+      ]
+    },
+    {
+      "model": "SGD",
+      "weighting": "unweighted",
+      "cv_mean_macro_f1": 0.5946,
+      "cv_std_macro_f1": 0.0187,
+      "folds": [
+        0.5634887384298225,
+        0.6173566043715438,
+        0.5988694241686942,
+        0.5856394249679622,
+        0.6076545264327526
+      ]
+    }
+  ],
+  "gridsearch": {
+    "best_cv_macro_f1": 0.6233,
+    "best_params": {
+      "clf__C": "1",
+      "feat__word__max_features": "40000",
+      "feat__word__ngram_range": "(1, 2)"
+    },
+    "test_macro_f1": 0.6259
+  }
+}

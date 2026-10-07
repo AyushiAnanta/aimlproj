@@ -1,0 +1,5 @@
+Model Variant,Test R² (log),Test MAE (log),Test MAE (raw likes),5-Fold CV R² (mean),5-Fold CV R² (std)
+(a) Baseline: Median Likes,-0.0006,1.4915,1183.3,0.0,0.0
+(b) Follower Count Only,0.085,1.3655,1141.2,0.1173,0.0189
+"(c) Metadata (Followers, Text Len, Media, Verified, Hashtags)",0.225,1.2378,1095.7,0.2216,0.0173
+(d) Full Model (Metadata + Sentiment Probs),0.3118,1.1861,1088.7,0.268,0.0275

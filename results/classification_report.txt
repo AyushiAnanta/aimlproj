@@ -1,0 +1,24 @@
+Sentiment Classification Report
+================================
+NOTE: Labels are RoBERTa pseudo-labels, NOT human annotations.
+Metrics measure agreement with RoBERTa, not true accuracy.
+
+Label distribution (full dataset, n=2001):
+transformer_sentiment
+Neutral     969
+Positive    664
+Negative    368
+
+Test set (n=401):
+              precision    recall  f1-score   support
+
+    Negative       0.64      0.62      0.63        74
+     Neutral       0.68      0.64      0.66       194
+    Positive       0.57      0.62      0.59       133
+
+    accuracy                           0.63       401
+   macro avg       0.63      0.63      0.63       401
+weighted avg       0.64      0.63      0.63       401
+
+Majority-class baseline agreement: 0.4838
+Majority-class baseline macro-F1:  0.2174
